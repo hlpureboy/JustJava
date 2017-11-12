@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.dialectdemo.MainActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/name"
+        android:text="常见称呼"
+        android:textSize="35pt"
+        android:layout_weight="1"
+        android:background="@android:color/holo_green_light"
+        android:textColor="@android:color/white"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/number"
+        android:text="数字"
+        android:textSize="35pt"
+        android:background="@android:color/holo_red_light"
+        android:textColor="@android:color/white"
+        android:layout_weight="1"/>
+</LinearLayout>

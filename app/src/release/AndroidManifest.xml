@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <activity
+            android:name="com.example.administrator.dialectdemo.SomeOne"
+            android:label="@string/title_activity_some_one"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+</manifest>

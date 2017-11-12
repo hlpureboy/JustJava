@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.dialectdemo.JustJava">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="咖啡订单"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20pt" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/jian"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/coffce_number"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="20pt" />
+
+        <Button
+            android:id="@+id/jia"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="+" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单价:5"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20pt" />
+
+    <Button
+        android:id="@+id/jisuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="计算" />
+
+    <TextView
+        android:id="@+id/shuliang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="咖啡的数量:0"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20pt" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="总价:0"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20pt" />
+</LinearLayout>

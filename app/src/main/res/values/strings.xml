@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">方言训练</string>
+    <string name="title_activity_number_sound">NumberSound</string>
+    <string name="title_activity_just_java">JustJava</string>
+</resources>
