@@ -1,25 +1,15 @@
 package com.example.administrator.dialectdemo;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.view.View;
 import android.widget.ArrayAdapter;
-import android.widget.LinearLayout;
 import android.widget.ListView;
-import android.widget.TextView;
-
-import java.util.ArrayList;
-
-import static android.os.Build.VERSION_CODES.M;
-import static com.example.administrator.dialectdemo.R.id.number;
 
 public class NumberSound extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //增加一个新功能
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_number_sound);
 //        ArrayList<String>number=new ArrayList<>();

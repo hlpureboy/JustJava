@@ -12,12 +12,15 @@ public class ALLObject {
         this.Imgid=Imgid;
         this.name=name;
     }
-
     public String getName() {
         return name;
     }
-
     public int getImgid() {
         return Imgid;
+    }
+
+    @Override
+    public String toString() {
+        return getName();
     }
 }
